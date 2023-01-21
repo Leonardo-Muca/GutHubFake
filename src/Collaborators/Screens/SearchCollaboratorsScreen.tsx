@@ -49,7 +49,7 @@ export const SearchCollaboratorsScreen = () => {
         if (response !== null) {
             if (response.message) {
                 Alert.alert(
-                    "Error",
+                    "¡ Mala suerte :( !",
                     "Usuario no encontrado",
                     [
                         { text: "OK", onPress: () => { } }
