@@ -49,7 +49,7 @@ export const SearchRepositoriesScreen = () => {
         if (response !== null) {
             if (response.message) {
                 Alert.alert(
-                    "Error",
+                    "¡ Mala suerte :( !",
                     "Repositorio no encontrado",
                     [
                         { text: "OK", onPress: () => { } }
